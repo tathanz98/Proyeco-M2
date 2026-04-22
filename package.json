@@ -1,0 +1,21 @@
+{
+  "name": "aldor-chat-spa",
+  "version": "1.0.0",
+  "description": "SPA for chatting with Aldor the Arcane using Google Gemini AI",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "vitest",
+    "dev": "python -m http.server 8000 --directory src",
+    "build": "echo 'No build step required'"
+  },
+  "keywords": ["spa", "chat", "ai", "gemini"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "vitest": "^1.0.0",
+    "@vitest/ui": "^1.0.0"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.2.0"
+  }
+}
